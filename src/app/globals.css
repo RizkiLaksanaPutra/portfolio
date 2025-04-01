@@ -1,26 +1,71 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-transparent: transparent;
+
+  --color-primary-200: #262626;
+  --color-primary-300: #4d4d4d;
+  --color-primary-400: #666666;
+
+  --color-secondary-100: #0e0e0c;
+  --color-secondary-200: #262626;
+  --color-secondary-300: #4d4d4d;
+  --color-secondary-400: #666666;
+  --color-secondary-500: #8c8c73;
+  --color-secondary-600: #aeae9d;
+  --color-secondary-700: #d1d1c7;
+
+  --color-accent-100: #fafaf9;
+  --color-accent-200: #d9d9d9;
+  --color-accent-300: #e6e6e6;
+  --color-accent-400: #f2f2f2;
+
+  --font-overused: "OverusedGrotesk", "sans-serif";
+  --font-satoshi: "Satoshi", "sans-serif";
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    @apply mx-auto w-full bg-primary-200 text-white;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: "OverusedGrotesk";
+  src: url("/fonts/overused-grotesk/OverusedGrotesk-Medium.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OverusedGrotesk";
+  src: url("/fonts/overused-grotesk/OverusedGrotesk-Bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OverusedGrotesk";
+  src: url("/fonts/overused-grotesk/OverusedGrotesk-SemiBold.ttf")
+    format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "OverusedGrotesk";
+  src: url("/fonts/overused-grotesk/OverusedGrotesk-Light.ttf")
+    format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi_Complete/TTF/Satoshi-Variable.ttf");
 }
