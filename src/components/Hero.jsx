@@ -19,14 +19,16 @@ export default function Hero() {
   };
 
   const curtainVariants = {
-    hidden: { height: "100%" },
-    visible: {
-      height: "0%",
+    hidden: { y: 30, opacity: 0 },
+    visible: (index) => ({
+      y: 0,
+      opacity: 1,
       transition: {
+        delay: index * 0.1,
         duration: 0.8,
-        ease: "easeOut",
+        type: "spring",
       },
-    },
+    }),
   };
 
   return (
@@ -34,7 +36,7 @@ export default function Hero() {
       className="my-6 flex h-full w-5/6 flex-col items-center justify-center gap-8 md:flex-row lg:h-1/2 lg:w-3/4 lg:gap-16"
       id="home"
     >
-      <div className="relative z-10 order-2 flex flex-col items-center gap-8 md:order-1 md:items-start">
+      <div className="order-2 flex flex-col items-center gap-8 md:order-1 md:items-start">
         <motion.h1
           className="w-full text-center text-5xl font-bold md:text-left md:text-6xl"
           variants={textVariants}
@@ -78,18 +80,20 @@ export default function Hero() {
           </a>
         </motion.div>
       </div>
-      <div className="relative z-10 order-1 w-40 min-w-60 max-w-80 overflow-hidden lg:order-2">
+      <div className="order-1 w-40 min-w-60 max-w-80 lg:order-2">
         <motion.div
-          className="absolute bottom-0 left-0 right-0 bg-primary-200"
+          className="bottom-0 left-0 right-0 bg-primary-200"
           initial="hidden"
           animate="visible"
           variants={curtainVariants}
-        ></motion.div>
-        <img
-          src="/assets/profile-picture.webp"
-          alt="My picture"
-          className="rounded-2xl border border-secondary-700 shadow-lg"
-        />
+          custom={3}
+        >
+          <img
+            src="/assets/profile-picture.webp"
+            alt="My picture"
+            className="rounded-2xl border border-secondary-700 shadow-lg"
+          />
+        </motion.div>
       </div>
     </section>
   );
