@@ -1,10 +1,11 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import Link from "next/link";
 import HamburgerButton from "./HamburgerButton";
 
 const navLinks = [
-  { title: "HOME", to: "/" },
-  { title: "ABOUT", to: "/" },
+  { title: "HOME", to: "#home" },
+  { title: "ABOUT", to: "#about" },
   { title: "PROJECTS", to: "/" },
   { title: "CONTACT", to: "/" },
 ];
@@ -91,11 +92,11 @@ export default function NavMenu() {
           >
             <div className="flex h-full flex-col">
               <motion.div className="flex justify-between">
-                <a href="/" onClick={toggleMenu}>
+                <Link href="/" onClick={toggleMenu}>
                   <h1 className="min-w-fit text-2xl font-bold">
                     Rizki Laksana Putra
                   </h1>
-                </a>
+                </Link>
               </motion.div>
 
               <motion.div
@@ -111,9 +112,9 @@ export default function NavMenu() {
                       className="font-overused text-6xl font-bold"
                       variants={mobileLinkVars}
                     >
-                      <a href={link.to} onClick={toggleMenu}>
+                      <Link href={link.to} onClick={toggleMenu}>
                         {link.title}
-                      </a>
+                      </Link>
                     </motion.div>
                   </div>
                 ))}
@@ -135,6 +136,7 @@ export default function NavMenu() {
                     <a
                       href="https://www.linkedin.com/in/rizkilaksana/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       LINKEDIN
                     </a>
@@ -143,6 +145,7 @@ export default function NavMenu() {
                     <a
                       href="https://github.com/RizkiLaksanaPutra"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       GITHUB
                     </a>

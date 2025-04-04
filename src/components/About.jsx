@@ -44,7 +44,7 @@ export default function About() {
 
   return (
     <section
-      className="my-6 h-full w-5/6 flex flex-col justify-center gap-8 lg:h-1/2 lg:w-3/4"
+      className="my-6 flex h-full w-5/6 flex-col justify-center gap-8 lg:h-1/2 lg:w-3/4"
       id="about"
     >
       <motion.h1
@@ -56,7 +56,7 @@ export default function About() {
       >
         About Me
       </motion.h1>
-      <div className="flex justify-between gap-8 md:flex-row">
+      <div className="flex flex-col gap-8 md:flex-row">
         <div className="flex w-full flex-col gap-6 md:w-2/3 md:gap-8">
           <motion.p
             className="text-left font-satoshi lg:text-lg"
@@ -123,7 +123,7 @@ export default function About() {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            custom={2}
+            custom={0}
           >
             <h2 className="text-xl font-bold flex items-center gap-2">
               <FaScrewdriverWrench />
