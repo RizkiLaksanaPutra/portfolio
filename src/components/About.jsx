@@ -1,5 +1,5 @@
-"use client";
 import { motion } from "framer-motion";
+import { FaCode, FaScrewdriverWrench } from "react-icons/fa6";
 
 function SkillButton({ children }) {
   return (
@@ -56,34 +56,87 @@ export default function About() {
       >
         About Me
       </motion.h1>
-      <div className="flex flex-col gap-8 md:flex-row">
+      <div className="flex justify-between gap-8 md:flex-row">
         <div className="flex w-full flex-col gap-6 md:w-2/3 md:gap-8">
           <motion.p
-            className="text-md text-left font-satoshi lg:text-lg"
+            className="text-left font-satoshi lg:text-lg"
             variants={textVariants}
             initial="hidden"
             animate="visible"
             custom={5}
           >
-            Hi! I'm Rizki Laksana Putra, a passionate entry-level Web Developer
-            based in South Tangerang City, Indonesia. I'm a recent Computer
-            Science graduate but forever a student of the industry. I specialize
-            in the frontend, primarily ReactJS, but love building with whatever
-            tools are right for the job.
+            Hi! I'm Rizki Laksana Putra, a passionate entry-level frontend
+            Developer based in South Tangerang City, Indonesia. I'm a recent
+            Computer Science graduate but forever a student of the industry. I
+            specialize in the frontend primarily React.js, but I enjoy working
+            with whatever tools best suit the job.
           </motion.p>
-          {/* <motion.p
-            className="text-md text-left font-satoshi lg:text-lg"
+          <motion.p
+            className="text-left font-satoshi lg:text-lg"
             variants={textVariants}
             initial="hidden"
             animate="visible"
             custom={6}
           >
-            Hi! I'm Rizki Laksana Putra, a passionate entry-level Web Developer
-            based in South Tangerang City, Indonesia. I'm a recent Computer
-            Science graduate but forever a student of the industry. I specialize
-            in the frontend, primarily ReactJS, but love building with whatever
-            tools are right for the job.
-          </motion.p> */}
+            Currently, I am seeking opportunities to grow as a frontend
+            developer with a dynamic team that values creativity, innovation,
+            and a commitment to excellence. I am eager to contribute to projects
+            that challenge my skills and allow me to grow alongside with
+            professionals in a supportive and forward-thinking environment.
+          </motion.p>
+          <motion.p
+            className="text-left font-satoshi lg:text-lg"
+            variants={textVariants}
+            initial="hidden"
+            animate="visible"
+            custom={7}
+          >
+            Besides frontend development, I also have expertise in data analysis
+            and machine learning, which I acquired during my university studies
+            and several bootcamps. I have a solid understanding of data
+            processing, predictive modeling, and implementing machine learning
+            algorithms to generate reliable insights.
+          </motion.p>
+        </div>
+        <div className="flex w-full flex-col gap-6 md:w-1/3">
+          <motion.div
+            className="z-10 flex flex-col gap-4"
+            variants={textVariants}
+            initial="hidden"
+            animate="visible"
+            custom={0}
+          >
+            <h2 className="text-xl font-bold flex items-center gap-2">
+              <FaCode />
+              Technical Skills
+            </h2>
+            <ul className="flex flex-wrap gap-2">
+              {technicalSkills.map((skill) => (
+                <li key={skill}>
+                  <SkillButton>{skill}</SkillButton>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+          <motion.div
+            className="z-10 flex flex-col gap-4"
+            variants={textVariants}
+            initial="hidden"
+            animate="visible"
+            custom={2}
+          >
+            <h2 className="text-xl font-bold flex items-center gap-2">
+              <FaScrewdriverWrench />
+              Tools
+            </h2>
+            <ul className="flex flex-wrap gap-2">
+              {tools.map((tool) => (
+                <li key={tool}>
+                  <SkillButton>{tool}</SkillButton>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
         </div>
       </div>
     </section>

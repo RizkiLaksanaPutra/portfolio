@@ -1,5 +1,3 @@
-'use client';
-
 import Link from 'next/link';
 // import ResumePDF from '/public/Rizki_Laksana_Putra_Resume.pdf';
 
