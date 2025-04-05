@@ -1,13 +1,6 @@
 import { motion } from "framer-motion";
 import { FaCode, FaScrewdriverWrench } from "react-icons/fa6";
-
-function SkillButton({ children }) {
-  return (
-    <button className="flex gap-2 rounded-md bg-secondary-300 px-2 py-1 font-satoshi text-accent-400">
-      {children}
-    </button>
-  );
-}
+import SkillButton from "./SkillButton";
 
 export default function About() {
   const technicalSkills = [
@@ -68,8 +61,16 @@ export default function About() {
             Hi! I'm Rizki Laksana Putra, a passionate entry-level frontend
             Developer based in South Tangerang City, Indonesia. I'm a recent
             Computer Science graduate but forever a student of the industry. I
-            specialize in the frontend primarily React.js, but I enjoy working
-            with whatever tools best suit the job.
+            specialize in the frontend primarily React.js which i mainly learned
+            through{" "}
+            <a
+              href="https://www.theodinproject.com/"
+              className="underline"
+              target="_blank"
+            >
+              The Odin Projects
+            </a>{" "}
+            course and hands-on projects.
           </motion.p>
           <motion.p
             className="text-left font-satoshi lg:text-lg"
@@ -104,7 +105,7 @@ export default function About() {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            custom={0}
+            custom={5}
           >
             <h2 className="text-xl font-bold flex items-center gap-2">
               <FaCode />
@@ -123,7 +124,7 @@ export default function About() {
             variants={textVariants}
             initial="hidden"
             animate="visible"
-            custom={0}
+            custom={6}
           >
             <h2 className="text-xl font-bold flex items-center gap-2">
               <FaScrewdriverWrench />

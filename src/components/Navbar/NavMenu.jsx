@@ -6,7 +6,7 @@ import HamburgerButton from "./HamburgerButton";
 const navLinks = [
   { title: "HOME", to: "#home" },
   { title: "ABOUT", to: "#about" },
-  { title: "PROJECTS", to: "/" },
+  { title: "PROJECTS", to: "#projects" },
   { title: "CONTACT", to: "/" },
 ];
 

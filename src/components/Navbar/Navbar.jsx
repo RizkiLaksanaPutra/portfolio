@@ -29,17 +29,17 @@ export default function Navbar() {
         </Link>
         <ul className="hidden gap-4 text-lg lg:flex">
           <li>
-            <Link href="/">
+            <Link href="#home">
               <DrawOutlineButton>Home</DrawOutlineButton>
             </Link>
           </li>
           <li>
-            <a href="/#about">
+            <a href="#about">
               <DrawOutlineButton>About</DrawOutlineButton>
             </a>
           </li>
           <li>
-            <a href="/#projects">
+            <a href="#projects">
               <DrawOutlineButton>Projects</DrawOutlineButton>
             </a>
           </li>
