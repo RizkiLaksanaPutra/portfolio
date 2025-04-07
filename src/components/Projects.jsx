@@ -180,6 +180,125 @@ export default function ProjectSection() {
         </Project>
         <Project>
           <img
+            src="/assets/todo-list.webp"
+            alt="Todo List"
+            className="h-60 rounded-xl object-cover lg:h-80 lg:w-1/2"
+          />
+          <div className="flex flex-col gap-4 lg:w-1/2">
+            <h3 className="text-xl font-bold">Todo List</h3>
+            <p className="font-satoshi leading-relaxed">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+              architecto voluptatibus inventore, quas consequuntur ipsam saepe,
+              reprehenderit autem repellat facilis maxime ducimus, cum enim
+              impedit tenetur dolorem delectus nulla dolores.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <SkillButton>React.js</SkillButton>
+              <SkillButton>Tailwind</SkillButton>
+              <SkillButton>Local Storage</SkillButton>
+            </div>
+            <div className="mt-auto flex gap-4">
+              <LinkButton>
+                <Link
+                  href="https://github.com/RizkiLaksanaPutra/etch-a-sketch"
+                  target="_blank"
+                >
+                  GitHub Repo
+                </Link>
+              </LinkButton>
+              <LinkButton>
+                <Link
+                  href="https://rizkilaksanaputra.github.io/etch-a-sketch/"
+                  target="_blank"
+                >
+                  Visit Site
+                </Link>
+              </LinkButton>
+            </div>
+          </div>
+        </Project>
+        <Project>
+          <img
+            src="/assets/library.webp"
+            alt="Personal Book Library"
+            className="h-60 rounded-xl object-cover lg:h-80 lg:w-1/2"
+          />
+          <div className="flex flex-col gap-4 lg:w-1/2">
+            <h3 className="text-xl font-bold">Personal Book Library</h3>
+            <p className="font-satoshi leading-relaxed">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+              architecto voluptatibus inventore, quas consequuntur ipsam saepe,
+              reprehenderit autem repellat facilis maxime ducimus, cum enim
+              impedit tenetur dolorem delectus nulla dolores.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <SkillButton>HTML</SkillButton>
+              <SkillButton>CSS</SkillButton>
+              <SkillButton>Javascript</SkillButton>
+              <SkillButton>Local Storage</SkillButton>
+            </div>
+            <div className="mt-auto flex gap-4">
+              <LinkButton>
+                <Link
+                  href="https://github.com/RizkiLaksanaPutra/etch-a-sketch"
+                  target="_blank"
+                >
+                  GitHub Repo
+                </Link>
+              </LinkButton>
+              <LinkButton>
+                <Link
+                  href="https://rizkilaksanaputra.github.io/etch-a-sketch/"
+                  target="_blank"
+                >
+                  Visit Site
+                </Link>
+              </LinkButton>
+            </div>
+          </div>
+        </Project>
+        <Project>
+          <img
+            src="/assets/tic-tac-toe.webp"
+            alt="Tic Tac Toe"
+            className="h-60 rounded-xl object-cover lg:h-80 lg:w-1/2"
+          />
+          <div className="flex flex-col gap-4 lg:w-1/2">
+            <h3 className="text-xl font-bold">Tic Tac Toe</h3>
+            <p className="font-satoshi leading-relaxed">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+              architecto voluptatibus inventore, quas consequuntur ipsam saepe,
+              reprehenderit autem repellat facilis maxime ducimus, cum enim
+              impedit tenetur dolorem delectus nulla dolores.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <SkillButton>HTML</SkillButton>
+              <SkillButton>CSS</SkillButton>
+              <SkillButton>Javascript</SkillButton>
+              <SkillButton>Local Storage</SkillButton>
+            </div>
+            <div className="mt-auto flex gap-4">
+              <LinkButton>
+                <Link
+                  href="https://github.com/RizkiLaksanaPutra/tic-tac-toe"
+                  target="_blank"
+                >
+                  GitHub Repo
+                </Link>
+              </LinkButton>
+              <LinkButton>
+                <Link
+                  href="https://rizkilaksanaputra.github.io/tic-tac-toe/"
+                  target="_blank"
+                >
+                  Visit Site
+                </Link>
+              </LinkButton>
+            </div>
+          </div>
+        </Project>
+        <Project>
+          <img
             src="/assets/etch-a-sketch.webp"
             alt="Super Store"
             className="h-60 rounded-xl object-cover lg:h-80 lg:w-1/2"
