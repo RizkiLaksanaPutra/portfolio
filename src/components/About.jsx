@@ -96,7 +96,7 @@ export default function About() {
             and machine learning, which I acquired during my university studies
             and several bootcamps. I have a solid understanding of data
             processing, predictive modeling, and implementing machine learning
-            algorithms to generate reliable insights.
+            algorithms.
           </motion.p>
         </div>
         <div className="flex w-full flex-col gap-6 md:w-1/3">

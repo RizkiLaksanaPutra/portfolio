@@ -22,7 +22,7 @@ const DrawOutlineButton = ({ children, ...rest }) => {
 
 export default function Navbar() {
   return (
-    <header className="z-40 w-full overflow-x-hidden px-8 py-4 lg:px-16">
+    <header className="z-40 w-full overflow-x-hidden px-8 py-4 lg:px-16 sticky top-0 bg-primary-200">
       <nav className="flex w-full items-center justify-between">
         <Link href="/">
           <h1 className="min-w-fit text-2xl font-bold">Rizki Laksana Putra</h1>
