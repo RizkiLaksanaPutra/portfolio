@@ -190,11 +190,10 @@ export default function ProjectSection() {
           <div className="flex flex-col gap-4 lg:w-1/2">
             <h3 className="text-xl font-bold">Todo List</h3>
             <p className="font-satoshi leading-relaxed">
-              A project I created to familiarize myself with the basic React ecosystem
-              and solidify my fundamental knowledge of React.js and Tailwind
-              CSS. In this To-Do List app, I practiced concepts like lifting
-              state up, passing props between siblings, and working with local
-              storage
+              An Todo list app to help me solidify my fundamental knowledge of
+              React.js and Tailwind CSS. In this To-Do List app, I practiced
+              concepts like lifting state up, passing props between sibling
+              components, and working with local storage.
             </p>
             <div className="flex flex-wrap gap-2">
               <SkillButton>React.js</SkillButton>
@@ -230,10 +229,11 @@ export default function ProjectSection() {
           <div className="flex flex-col gap-4 lg:w-1/2">
             <h3 className="text-xl font-bold">Personal Book Library</h3>
             <p className="font-satoshi leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-              architecto voluptatibus inventore, quas consequuntur ipsam saepe,
-              reprehenderit autem repellat facilis maxime ducimus, cum enim
-              impedit tenetur dolorem delectus nulla dolores.
+              A personal book library app built with HTML, CSS, and JavaScript,
+              where users can add and manage books with details like title,
+              author, and reading status. I practiced using object constructors,
+              arrays, local storage, and form handling to create a dynamic,
+              interactive UI.
             </p>
             <div className="flex flex-wrap gap-2">
               <SkillButton>HTML</SkillButton>
@@ -270,16 +270,15 @@ export default function ProjectSection() {
           <div className="flex flex-col gap-4 lg:w-1/2">
             <h3 className="text-xl font-bold">Tic Tac Toe</h3>
             <p className="font-satoshi leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-              architecto voluptatibus inventore, quas consequuntur ipsam saepe,
-              reprehenderit autem repellat facilis maxime ducimus, cum enim
-              impedit tenetur dolorem delectus nulla dolores.
+              A simple Tic-Tac-Toe game developed to strengthen my understanding
+              of JavaScript fundamentals. I used factory functions to
+              encapsulate game logic and player data, making the code more
+              modular, reusable, and easier to maintain.
             </p>
             <div className="flex flex-wrap gap-2">
               <SkillButton>HTML</SkillButton>
               <SkillButton>CSS</SkillButton>
               <SkillButton>Javascript</SkillButton>
-              <SkillButton>Local Storage</SkillButton>
             </div>
             <div className="mt-auto flex gap-4">
               <LinkButton>
@@ -310,10 +309,10 @@ export default function ProjectSection() {
           <div className="flex flex-col gap-4 lg:w-1/2">
             <h3 className="text-xl font-bold">Etch A Sketch</h3>
             <p className="font-satoshi leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-              architecto voluptatibus inventore, quas consequuntur ipsam saepe,
-              reprehenderit autem repellat facilis maxime ducimus, cum enim
-              impedit tenetur dolorem delectus nulla dolores.
+              A web-based drawing app inspired by the classic Etch-A-Sketch,
+              built with HTML, CSS, and JavaScript. This project helped me
+              practice loops, mouse events, dynamic Flexbox layouts, and DOM
+              manipulation to handle user interactions.
             </p>
             <div className="flex flex-wrap gap-2">
               <SkillButton>HTML</SkillButton>
