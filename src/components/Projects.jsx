@@ -109,10 +109,13 @@ export default function ProjectSection() {
           <div className="flex flex-col gap-4 lg:w-1/2">
             <h3 className="text-xl font-bold">Super Store Dashboard</h3>
             <p className="font-satoshi leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-              architecto voluptatibus inventore, quas consequuntur ipsam saepe,
-              reprehenderit autem repellat facilis maxime ducimus, cum enim
-              impedit tenetur dolorem delectus nulla dolores.
+              A web dashboard project I worked on during MSIB Batch 6 with
+              RevoU, where I studied data analysis and software engineering. The
+              dashboard displays various metrics from static data that can be
+              used for analysis. It was built using HTML, CSS, JavaScript, and
+              Chart.js library to display various charts. This project also
+              strengthened my teamwork skills through collaboration with team
+              members and mentors.
             </p>
             <div className="flex flex-wrap gap-2">
               <SkillButton>HTML</SkillButton>
@@ -187,10 +190,11 @@ export default function ProjectSection() {
           <div className="flex flex-col gap-4 lg:w-1/2">
             <h3 className="text-xl font-bold">Todo List</h3>
             <p className="font-satoshi leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-              architecto voluptatibus inventore, quas consequuntur ipsam saepe,
-              reprehenderit autem repellat facilis maxime ducimus, cum enim
-              impedit tenetur dolorem delectus nulla dolores.
+              A project I created to familiarize myself with the basic React ecosystem
+              and solidify my fundamental knowledge of React.js and Tailwind
+              CSS. In this To-Do List app, I practiced concepts like lifting
+              state up, passing props between siblings, and working with local
+              storage
             </p>
             <div className="flex flex-wrap gap-2">
               <SkillButton>React.js</SkillButton>
@@ -200,7 +204,7 @@ export default function ProjectSection() {
             <div className="mt-auto flex gap-4">
               <LinkButton>
                 <Link
-                  href="https://github.com/RizkiLaksanaPutra/etch-a-sketch"
+                  href="https://github.com/RizkiLaksanaPutra/todo-list"
                   target="_blank"
                 >
                   GitHub Repo
@@ -208,7 +212,7 @@ export default function ProjectSection() {
               </LinkButton>
               <LinkButton>
                 <Link
-                  href="https://rizkilaksanaputra.github.io/etch-a-sketch/"
+                  href="https://rizkilaksanaputra.github.io/todo-list/"
                   target="_blank"
                 >
                   Visit Site
