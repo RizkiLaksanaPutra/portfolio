@@ -1,5 +1,4 @@
-import Link from 'next/link';
-// import ResumePDF from '/public/Rizki_Laksana_Putra_Resume.pdf';
+import Link from "next/link";
 
 const DrawOutlineButton = ({ children, ...rest }) => {
   return (
@@ -44,12 +43,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <Link href="/contact">
-              <DrawOutlineButton>Contact</DrawOutlineButton>
-            </Link>
-          </li>
-          <li>
-            <a target="_blank" rel="noopener noreferrer">
+            <a href="/CV Rizki Laksana Putra.pdf" target="_blank" rel="noopener noreferrer">
               <DrawOutlineButton>Resume</DrawOutlineButton>
             </a>
           </li>

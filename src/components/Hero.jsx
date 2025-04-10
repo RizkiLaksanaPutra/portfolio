@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaLinkedin, FaSquareGithub } from "react-icons/fa6";
+import { FaLinkedin, FaSquareGithub, FaEnvelope } from "react-icons/fa6";
 
 export default function Hero() {
   const textVariants = {
@@ -52,10 +52,10 @@ export default function Hero() {
           animate="visible"
           custom={1}
         >
-          I can help you transform your concept to a Seamless User Experience.
+          Freshgraduate Information System Student from Mercu Buana University
         </motion.p>
         <motion.div
-          className="flex justify-center gap-8 lg:justify-start"
+          className="flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start"
           variants={textVariants}
           initial="hidden"
           animate="visible"
@@ -77,6 +77,13 @@ export default function Hero() {
             <FaSquareGithub />
             GitHub
           </a>
+          <a
+            className="font-satoshi text-lg font-medium flex items-center gap-1"
+            href="mailto:rizkilaksana007@gmail.com"
+          >
+            <FaEnvelope />
+            rizkilaksana007@gmail.com
+          </a>
         </motion.div>
       </div>
       <div className="order-1 w-40 min-w-60 max-w-80 lg:order-2">
@@ -88,7 +95,7 @@ export default function Hero() {
           custom={3}
         >
           <img
-            src="/assets/profile-picture.webp"
+            src="/assets/profile-picture2.webp"
             alt="My picture"
             className="rounded-2xl border border-secondary-700 shadow-lg"
           />

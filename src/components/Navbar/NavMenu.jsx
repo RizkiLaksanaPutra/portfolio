@@ -7,7 +7,7 @@ const navLinks = [
   { title: "HOME", to: "#home" },
   { title: "ABOUT", to: "#about" },
   { title: "PROJECTS", to: "#projects" },
-  { title: "CONTACT", to: "/" },
+  { title: "RESUME", to: "/CV Rizki Laksana Putra.pdf"}
 ];
 
 const menuVariants = {

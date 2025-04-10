@@ -150,12 +150,13 @@ export default function ProjectSection() {
             className="h-60 rounded-xl object-cover lg:h-80 lg:w-1/2"
           />
           <div className="flex flex-col gap-4 lg:w-1/2">
-            <h3 className="text-xl font-bold">Analytix | As Project Manager</h3>
+            <h3 className="text-xl font-bold">Analytix</h3>
             <p className="font-satoshi leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-              architecto voluptatibus inventore, quas consequuntur ipsam saepe,
-              reprehenderit autem repellat facilis maxime ducimus, cum enim
-              impedit tenetur dolorem delectus nulla dolores.
+              A playground website built for data scientists to explore various
+              machine learning classification algorithms with customizable
+              parameters, and perform descriptive data analysis. Developed as
+              part of the Pameran Hasil Karya Mahasiswa (Student Project
+              Showcase), this project earned our team first place.
             </p>
             <div className="flex flex-wrap gap-2">
               <SkillButton>Python</SkillButton>
@@ -190,10 +191,10 @@ export default function ProjectSection() {
           <div className="flex flex-col gap-4 lg:w-1/2">
             <h3 className="text-xl font-bold">Todo List</h3>
             <p className="font-satoshi leading-relaxed">
-              An Todo list app to help me solidify my fundamental knowledge of
-              React.js and Tailwind CSS. In this To-Do List app, I practiced
-              concepts like lifting state up, passing props between sibling
-              components, and working with local storage.
+              An Todo list app that help me solidify my fundamental knowledge of
+              basic React.js and Tailwind CSS. In this To-Do List app, I
+              practiced concepts like lifting state up, passing props between
+              sibling components, and working with local storage.
             </p>
             <div className="flex flex-wrap gap-2">
               <SkillButton>React.js</SkillButton>
@@ -232,8 +233,7 @@ export default function ProjectSection() {
               A personal book library app built with HTML, CSS, and JavaScript,
               where users can add and manage books with details like title,
               author, and reading status. I practiced using object constructors,
-              arrays, local storage, and form handling to create a dynamic,
-              interactive UI.
+              arrays, local storage, and form handling.
             </p>
             <div className="flex flex-wrap gap-2">
               <SkillButton>HTML</SkillButton>
