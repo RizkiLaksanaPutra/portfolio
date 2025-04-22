@@ -244,7 +244,7 @@ export default function ProjectSection() {
             <div className="mt-auto flex gap-4">
               <LinkButton>
                 <Link
-                  href="https://github.com/RizkiLaksanaPutra/etch-a-sketch"
+                  href="https://github.com/RizkiLaksanaPutra/personal-book-library"
                   target="_blank"
                 >
                   GitHub Repo
@@ -252,7 +252,7 @@ export default function ProjectSection() {
               </LinkButton>
               <LinkButton>
                 <Link
-                  href="https://rizkilaksanaputra.github.io/etch-a-sketch/"
+                  href="https://rizkilaksanaputra.github.io/personal-book-library/"
                   target="_blank"
                 >
                   Visit Site
