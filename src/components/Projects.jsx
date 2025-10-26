@@ -38,7 +38,7 @@ function Project({ project }) {
                 </div>
 
                 <div className="mt-auto flex gap-4">
-                    {project.links.map((link) => (
+                    {project.links?.map((link) => (
                         <LinkButton key={link.href}>
                             <Link href={link.href} target="_blank">
                                 {link.label}
@@ -53,6 +53,12 @@ function Project({ project }) {
 
 export default function ProjectSection() {
     const projects = [
+        {
+            title: 'Attendance Dremaxtion',
+            image: '/assets/attendance.png',
+            description: 'A project I worked on during my internship at Dreamaxtion, where I developed an employee attendance web app featuring attendance tracking, time-off requests, and reporting. I collaborated with the backend team to integrate REST APIs using Axios and improved the user experience through responsive design, validation, and clear error handling.',
+            skills: ['Vue.js', 'Nuxt.js', 'Tailwind CSS', 'Axios', 'Node.js', 'Express', 'MySQL'],
+        },
         {
             title: 'Chatbot PTP',
             image: '/assets/chatbot-ptp.webp',
