@@ -22,6 +22,7 @@ import {
     SiLooker,
     SiGooglebigquery,
     SiGooglesheets,
+    SiGooglecolab,
 } from 'react-icons/si';
 import { BiLogoVisualStudio } from 'react-icons/bi';
 import { RiFileExcel2Fill } from 'react-icons/ri';
@@ -73,37 +74,49 @@ export default function About() {
 
     const tools = [
         {
-            text: 'Microsoft Excel',
+            text: 'Excel',
             icon: <RiFileExcel2Fill className="text-green-600" />,
         },
         {
-            text: 'Google Sheet',
+            text: 'Spreadsheet',
             icon: <SiGooglesheets className="text-green-600" />,
         },
         {
-            text: 'Google Bigquery',
+            text: 'Bigquery',
             icon: <SiGooglebigquery className="text-blue-300" />,
         },
-        // {
-        //     text: 'Visual Studio Code',
-        //     icon: <BiLogoVisualStudio className="text-blue-500" />,
-        // },
-        // {
-        //     text: 'Github',
-        //     icon: <FaGithub className="text-white" />,
-        // },
+        {
+            text: 'Dbeaver',
+            icon: <SiDbeaver className="text-gray-800" />,
+        },
+        {
+            text: 'Looker Studio',
+            icon: <SiLooker className="text-blue-300" />,
+        },
+        {
+            text: 'Power BI',
+            icon: <img src="/assets/PowerBI.svg" />,
+        },
+        {
+            text: 'Visual Studio Code',
+            icon: <BiLogoVisualStudio className="text-blue-500" />,
+        },
+        {
+            text: 'Colab',
+            icon: <SiGooglecolab className="text-orange-500" />,
+        },
+        {
+            text: 'Github',
+            icon: <FaGithub className="text-white" />,
+        },
         // {
         //     text: 'Figma',
         //     icon: <FaFigma className="text-white" />,
         // },
-        // {
-        //     text: 'Postman',
-        //     icon: <SiPostman className="text-orange-500" />,
-        // },
-        // {
-        //     text: 'Dbeaver',
-        //     icon: <SiDbeaver className="text-gray-800" />,
-        // },
+        {
+            text: 'Postman',
+            icon: <SiPostman className="text-orange-500" />,
+        },
     ];
 
     const textVariants = {

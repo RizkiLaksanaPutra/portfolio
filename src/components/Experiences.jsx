@@ -1,6 +1,20 @@
 const ExperiencesSection = () => {
     const experiences = [
         {
+            image: '/assets/fwd.jpg',
+            company: 'FWD Insurance Indonesia',
+            position: 'Agency Strategy (Data Analytics & Reporting)',
+            role: 'Internship',
+            date: 'Nov 2025 - May 2026',
+            duration: '6 Months',
+            tasks: [
+                'Managed tracking and reporting for 4 monthly and 9 quarterly agency contests, delivering accurate and timely insights to 5+ stakeholders',
+                'Developed and maintained 6 Power BI dashboards covering agency performance KPIs, submission and issuance performance, agent persistency, monthly contests, and quarterly contests, reducing manual reporting effort and improving reporting efficiency',
+                'Analyzed agency sales performance trends across 8 agency groups, 7 BDMs, and 2 types of agent hierarchy structures by consolidating and processing over 400,000 records from 6 data sources on a regular basis to support performance evaluation and data-driven decision making',
+                'Collaborated with 5+ stakeholders from cross-functional teams to provide data support for 3 agency events',
+            ],
+        },
+        {
             image: '/assets/dreamaxtion.jpg',
             company: 'Dreamaxtion',
             position: 'Frontend Developer',
@@ -8,10 +22,10 @@ const ExperiencesSection = () => {
             date: 'Jun 2025 - Sep 2025',
             duration: '4 Months',
             tasks: [
-                'Converted UI/UX designs from Figma into fully responsive web pages using Vue.js, Nuxt.js, and Tailwind CSS',
                 'Developed employee attendance web with core features such as attendance tracking, time off requests, and employee report',
-                'Collaborated with backend team to integrate REST API endpoints and built reusable service classes to handle API communication with Axios',
-                'Enhanced user experience by implementing loading states, form validation, and error handling with clear feedback messages',
+                'Collaborated with stakeholders to translate business requirements into functional web solutions',
+                'Integrated REST APIs and validated operational data to ensure system reliability and data accuracy',
+                'Improved user experience through optimized workflows, form validation, and error handling',
             ],
         },
         {
