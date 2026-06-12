@@ -32,7 +32,7 @@ export default function Hero() {
 
     return (
         <section
-            className="flex h-full w-5/6 flex-col items-center justify-center gap-8 md:flex-row lg:h-1/2 lg:w-3/4 lg:gap-16"
+            className="flex h-full w-5/6 flex-col items-center justify-between gap-8 md:flex-row lg:h-1/2 lg:w-3/4 lg:gap-16"
             id="home"
         >
             <div className="order-2 flex flex-col items-center gap-8 md:order-1 md:items-start">
@@ -43,7 +43,7 @@ export default function Hero() {
                     animate="visible"
                     custom={0}
                 >
-                    Frontend Developer
+                    Data Analyst
                 </motion.h1>
                 <motion.p
                     className="w-3/4 text-center font-satoshi text-lg md:w-10/12 md:text-left md:text-xl"
@@ -52,7 +52,7 @@ export default function Hero() {
                     animate="visible"
                     custom={1}
                 >
-                    Freshgraduate Information System Student from Mercu Buana University
+                    I like numbers 🤓
                 </motion.p>
                 <motion.div
                     className="flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start"
@@ -95,7 +95,7 @@ export default function Hero() {
                     custom={3}
                 >
                     <img
-                        src="/assets/profile-picture2.webp"
+                        src="/assets/profile-picture.jpg"
                         alt="My picture"
                         className="rounded-2xl border border-secondary-700 shadow-lg"
                     />

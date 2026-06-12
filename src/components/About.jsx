@@ -6,17 +6,37 @@ import {
     FaCss3Alt,
     FaJs,
     FaReact,
-    FaNodeJs,
+    FaPython,
     FaVuejs,
     FaGithub,
     FaFigma,
+    FaDatabase,
 } from 'react-icons/fa6';
-import { SiNextdotjs, SiNuxtdotjs, SiTailwindcss, SiMysql, SiPostman, SiDbeaver } from 'react-icons/si';
+import {
+    SiNextdotjs,
+    SiNuxtdotjs,
+    SiTailwindcss,
+    SiMysql,
+    SiPostman,
+    SiDbeaver,
+    SiLooker,
+    SiGooglebigquery,
+    SiGooglesheets,
+} from 'react-icons/si';
 import { BiLogoVisualStudio } from 'react-icons/bi';
+import { RiFileExcel2Fill } from 'react-icons/ri';
 import SkillButton from './SkillButton';
 
 export default function About() {
     const technicalSkills = [
+        {
+            text: 'SQL',
+            icon: <FaDatabase className="text-blue-600" />,
+        },
+        {
+            text: 'Python',
+            icon: <FaPython className="text-blue-300" />,
+        },
         {
             text: 'HTML',
             icon: <FaHtml5 className="text-orange-500" />,
@@ -49,37 +69,41 @@ export default function About() {
             text: 'Tailwind CSS',
             icon: <SiTailwindcss className="text-sky-400" />,
         },
-        {
-            text: 'Node.js',
-            icon: <FaNodeJs className="text-green-600" />,
-        },
-        {
-            text: 'MySQL',
-            icon: <SiMysql className="text-blue-600" />,
-        },
     ];
 
     const tools = [
         {
-            text: 'Visual Studio Code',
-            icon: <BiLogoVisualStudio className="text-blue-500" />,
+            text: 'Microsoft Excel',
+            icon: <RiFileExcel2Fill className="text-green-600" />,
         },
         {
-            text: 'Github',
-            icon: <FaGithub className="text-white" />,
+            text: 'Google Sheet',
+            icon: <SiGooglesheets className="text-green-600" />,
         },
         {
-            text: 'Figma',
-            icon: <FaFigma className="text-white" />,
+            text: 'Google Bigquery',
+            icon: <SiGooglebigquery className="text-blue-300" />,
         },
-        {
-            text: 'Postman',
-            icon: <SiPostman className="text-orange-500" />,
-        },
-        {
-            text: 'Dbeaver',
-            icon: <SiDbeaver className="text-gray-800" />,
-        },
+        // {
+        //     text: 'Visual Studio Code',
+        //     icon: <BiLogoVisualStudio className="text-blue-500" />,
+        // },
+        // {
+        //     text: 'Github',
+        //     icon: <FaGithub className="text-white" />,
+        // },
+        // {
+        //     text: 'Figma',
+        //     icon: <FaFigma className="text-white" />,
+        // },
+        // {
+        //     text: 'Postman',
+        //     icon: <SiPostman className="text-orange-500" />,
+        // },
+        // {
+        //     text: 'Dbeaver',
+        //     icon: <SiDbeaver className="text-gray-800" />,
+        // },
     ];
 
     const textVariants = {
@@ -115,14 +139,10 @@ export default function About() {
                         animate="visible"
                         custom={5}
                     >
-                        Hi! I'm Rizki Laksana Putra, a passionate Frontend Developer based in South Tangerang, Indonesia. I'm a
-                        recent Information System graduate from Mercu Buana University but I consider myself a lifelong learner in
-                        the industry. I specialize in the frontend primarily with Vue.js but can also use React.js depending on
-                        project needs, which i mainly learned through hands-on projects from internships and{' '}
-                        <a href="https://www.theodinproject.com/" className="underline" target="_blank">
-                            The Odin Project
-                        </a>{' '}
-                        course.
+                        Hi! I'm Rizki Laksana Putra, a Data Analyst with a background in Information Systems and practical
+                        experience in business intelligence, dashboard development, and performance analysis. I
+                        specialize in transforming raw data into meaningful insights that support strategic decision-making and
+                        operational improvements.
                     </motion.p>
                     <motion.p
                         className="text-left font-satoshi lg:text-lg"
@@ -131,10 +151,10 @@ export default function About() {
                         animate="visible"
                         custom={6}
                     >
-                        Currently, I am seeking opportunities to grow as a frontend developer with a dynamic team that values
-                        creativity, innovation, and a commitment to excellence. I am eager to contribute to projects that
-                        challenge my skills and allow me to grow alongside with professionals in a supportive and forward-thinking
-                        environment.
+                        My experience includes developing analytical dashboards, automating reporting processes, monitoring key
+                        business metrics, and analyzing large datasets using SQL, Excel, Power BI, and Looker Studio. Through
+                        projects and professional experience in the insurance industry, I have worked closely with stakeholders to
+                        identify trends, evaluate performance, and provide actionable recommendations based on data.
                     </motion.p>
                     <motion.p
                         className="text-left font-satoshi lg:text-lg"
@@ -143,9 +163,9 @@ export default function About() {
                         animate="visible"
                         custom={7}
                     >
-                        Besides frontend development, I also have expertise in data analysis and machine learning, which I
-                        acquired during my university studies and several bootcamps. I have a solid understanding of data
-                        processing, predictive modeling, and implementing machine learning algorithms.
+                        In addition to analytics, I have a foundation in software development and machine learning, enabling me to
+                        bridge technical implementation with business objectives. I am passionate about continuous learning and
+                        enjoy solving complex problems through data, critical thinking, and structured analysis.
                     </motion.p>
                 </div>
                 <div className="flex w-full flex-col gap-6 md:w-1/3">
@@ -158,7 +178,7 @@ export default function About() {
                     >
                         <h2 className="text-xl font-bold flex items-center gap-2">
                             <FaCode />
-                            Technical Skills
+                            Programming Language
                         </h2>
                         <ul className="flex flex-wrap gap-2">
                             {technicalSkills.map((skill) => (

@@ -4,7 +4,7 @@ const ExperiencesSection = () => {
             image: '/assets/dreamaxtion.jpg',
             company: 'Dreamaxtion',
             position: 'Frontend Developer',
-            role: 'Internship',
+            role: 'Freelance',
             date: 'Jun 2025 - Sep 2025',
             duration: '4 Months',
             tasks: [
