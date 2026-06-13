@@ -29,29 +29,29 @@ export default function Navbar() {
                 </Link>
                 <ul className="hidden gap-4 text-lg lg:flex">
                     <li>
-                        <Link href="#home">
+                        <Link href="/">
                             <DrawOutlineButton>Home</DrawOutlineButton>
                         </Link>
                     </li>
                     <li>
-                        <a href="#about">
+                        <Link href="/#about">
                             <DrawOutlineButton>About</DrawOutlineButton>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#experiences">
+                        <Link href="/#experiences">
                             <DrawOutlineButton>Experiences</DrawOutlineButton>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#projects">
+                        <Link href="/#projects">
                             <DrawOutlineButton>Projects</DrawOutlineButton>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/CV Rizki Laksana Putra.pdf" target="_blank" rel="noopener noreferrer">
+                        <Link href="/CV Rizki Laksana Putra.pdf" target="_blank" rel="noopener noreferrer">
                             <DrawOutlineButton>Resume</DrawOutlineButton>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>

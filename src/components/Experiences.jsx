@@ -36,10 +36,10 @@ const ExperiencesSection = () => {
             date: 'Sep 2024 - Nov 2024',
             duration: '3 Months',
             tasks: [
-                'Built a chatbot web using React, Next.js, Tailwind CSS, Langchain, and Google Gemini API',
-                'Create topic-switching feature between regulatory and knowledge domains',
-                'Optimized AI response performance by integrating Faiss library, reducing response time from 8 to 4 seconds',
-                'Configured VPS to host the chatbot website',
+                'Developed and deployed an AI-powered chatbot application using Next.js, LangChain, and Google Gemini API',
+                'Implemented vector search using FAISS to improve response latency by 50%',
+                'Collaborated in designing knowledge retrieval workflows and data indexing mechanisms',
+                'Managed deployment and server configuration on a VPS to ensure application availability and stability',
             ],
         },
     ];

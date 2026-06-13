@@ -38,38 +38,38 @@ export default function About() {
             text: 'Python',
             icon: <FaPython className="text-blue-300" />,
         },
-        {
-            text: 'HTML',
-            icon: <FaHtml5 className="text-orange-500" />,
-        },
-        {
-            text: 'CSS',
-            icon: <FaCss3Alt className="text-blue-500" />,
-        },
-        {
-            text: 'Javascript',
-            icon: <FaJs className="text-yellow-400" />,
-        },
-        {
-            text: 'Vue.js',
-            icon: <FaVuejs className="text-green-500" />,
-        },
-        {
-            text: 'React.js',
-            icon: <FaReact className="text-cyan-400" />,
-        },
-        {
-            text: 'Nuxt.js',
-            icon: <SiNuxtdotjs className="text-green-600" />,
-        },
-        {
-            text: 'Next.js',
-            icon: <SiNextdotjs className="text-white" />,
-        },
-        {
-            text: 'Tailwind CSS',
-            icon: <SiTailwindcss className="text-sky-400" />,
-        },
+        // {
+        //     text: 'HTML',
+        //     icon: <FaHtml5 className="text-orange-500" />,
+        // },
+        // {
+        //     text: 'CSS',
+        //     icon: <FaCss3Alt className="text-blue-500" />,
+        // },
+        // {
+        //     text: 'Javascript',
+        //     icon: <FaJs className="text-yellow-400" />,
+        // },
+        // {
+        //     text: 'Vue.js',
+        //     icon: <FaVuejs className="text-green-500" />,
+        // },
+        // {
+        //     text: 'React.js',
+        //     icon: <FaReact className="text-cyan-400" />,
+        // },
+        // {
+        //     text: 'Nuxt.js',
+        //     icon: <SiNuxtdotjs className="text-green-600" />,
+        // },
+        // {
+        //     text: 'Next.js',
+        //     icon: <SiNextdotjs className="text-white" />,
+        // },
+        // {
+        //     text: 'Tailwind CSS',
+        //     icon: <SiTailwindcss className="text-sky-400" />,
+        // },
     ];
 
     const tools = [
@@ -105,18 +105,18 @@ export default function About() {
             text: 'Colab',
             icon: <SiGooglecolab className="text-orange-500" />,
         },
-        {
-            text: 'Github',
-            icon: <FaGithub className="text-white" />,
-        },
         // {
-        //     text: 'Figma',
-        //     icon: <FaFigma className="text-white" />,
+        //     text: 'Github',
+        //     icon: <FaGithub className="text-white" />,
         // },
-        {
-            text: 'Postman',
-            icon: <SiPostman className="text-orange-500" />,
-        },
+        // // {
+        // //     text: 'Figma',
+        // //     icon: <FaFigma className="text-white" />,
+        // // },
+        // {
+        //     text: 'Postman',
+        //     icon: <SiPostman className="text-orange-500" />,
+        // },
     ];
 
     const textVariants = {
