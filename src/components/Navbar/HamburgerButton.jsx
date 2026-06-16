@@ -45,7 +45,7 @@ export default function HamburgerButton({ onClick, isActive }) {
                 initial={false}
                 animate={isActive ? 'open' : 'closed'}
                 onClick={onClick}
-                className="relative z-50 h-10 w-10 rounded-full bg-transparent transition-colors hover:bg-secondary-500"
+                className="relative z-50 h-10 w-10 rounded-full bg-transparent transition-colors hover:bg-secondary-500 cursor-pointer"
             >
                 <motion.span
                     variants={VARIANTS.top}

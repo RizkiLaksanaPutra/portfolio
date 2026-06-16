@@ -4,10 +4,10 @@ import Link from 'next/link';
 import HamburgerButton from './HamburgerButton';
 
 const navLinks = [
-    { title: 'HOME', to: '#home' },
-    { title: 'ABOUT', to: '#about' },
-    { title: 'EXPERIENCES', to: '#experiences' },
-    { title: 'PROJECTS', to: '#projects' },
+    { title: 'HOME', to: '/' },
+    { title: 'ABOUT', to: '/#about' },
+    { title: 'EXPERIENCES', to: '/#experiences' },
+    { title: 'PROJECTS', to: '/#projects' },
     { title: 'RESUME', to: '/CV Rizki Laksana Putra.pdf' },
 ];
 
